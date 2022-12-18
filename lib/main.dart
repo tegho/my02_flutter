@@ -99,7 +99,6 @@ class _MyHomePageState extends State<MyHomePage> {
 
   @override
   Widget build(BuildContext context) {
-
     return Scaffold(
       appBar: AppBar(
         title: Text(widget.title),
@@ -173,7 +172,6 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
 
             ( widget.platformWeb ) ? const Text('SvgPicture.network NOT SUPPORTED IN WEB.') : Expanded(
-              flex: 1,
               child:
                 Container(
                   // width: 1300,
