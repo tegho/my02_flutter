@@ -127,7 +127,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       // "Either the width and height arguments should be specified, or the widget should be placed in a context that sets tight layout constraints"
                       // In our case parent container sets height. It resizes this SVG image, but not SVG canvas size!
                       // So add width here as a workaround
-                      // width: 64,
+                      width: 64,
                     ),
                     ( widget.platformWeb ) ? const SizedBox.shrink() : IconButton(
                       iconSize: 64,
